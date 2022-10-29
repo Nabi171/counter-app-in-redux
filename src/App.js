@@ -1,10 +1,12 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header/Header';
+import Counter from './components/Counter/Counter';
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <Header></Header>
+      <Counter></Counter>
     </div>
   );
 }

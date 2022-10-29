@@ -5,9 +5,9 @@ import Navbar from 'react-bootstrap/Navbar';
 const Header = () => {
     return (
         <div>
-            <Navbar bg="light" expand="lg">
+            <Navbar className='border' bg="black" expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home">Redux-CounterApp</Navbar.Brand>
+                    <Navbar.Brand className='text-white' href="#home">Redux-CounterApp</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
