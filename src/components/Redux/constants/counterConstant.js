@@ -1,3 +1,3 @@
 export const INCREMENT = "INCREMNET";
-export const DECREMENT = "INCREMNET";
-export const RESET = "INCREMNET";
+export const DECREMENT = "DECREMENT";
+export const RESET = "RESET";
