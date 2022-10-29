@@ -19,9 +19,12 @@ const Counter = () => {
     };
     return (
         <div className='text-white'>
-            <h3 className='text-white text-center  mt-2'>Make Count</h3>
-            <h6>Count:{count}</h6>
-            <div className='jusify-content-between'>
+            <h3 className='text-white text-center  mt-2'>Count:{count}</h3>
+
+            <div className='text-center'>
+                <img className='w-50 text-center' src="https://i.ibb.co/G54zTMy/animation1-removebg-preview.png" alt="" srcset="" />
+            </div>
+            <div className='d-flex justify-content-around'>
                 <button onClick={handleIncreament} className='btn btn-outline-light'>Increament</button>
                 <button onClick={handleDecrement} className='btn btn-outline-light'>Decrement</button>
                 <button onClick={handleReset} className='btn btn-outline-light'>Reset</button>
